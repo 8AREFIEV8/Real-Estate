@@ -1,0 +1,45 @@
+.header {
+  width: 1440px;
+  height: 806px;
+
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header__left {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+
+}
+.header__logo {
+
+}
+.header__text {
+
+}
+.header__middle {
+  display: block;
+
+
+}
+
+.header-middle__list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.header__right {
+
+}
+.registr {
+
+}
+.login {
+
+}
