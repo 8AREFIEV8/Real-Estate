@@ -24,7 +24,9 @@
     color: #ffffff
 }
 .main{
+    width: 1440px;
     flex: 1 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 html{
     height: 100%;
