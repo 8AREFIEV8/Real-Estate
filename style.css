@@ -7,6 +7,10 @@ button, a {
   cursor: pointer;
 }
 
+.header {
+  
+}
+
 .container {
   max-width: 1165px;
   align-items: center;
@@ -95,4 +99,30 @@ margin: 32px 0 0 0;
 
 background: #69B99D;
 
+}
+
+/******** DREAM ********/
+
+.dream {
+}
+.dream__info {
+}
+.dream__info-text {
+}
+.buy {
+}
+.rent {
+}
+.dream__picture {
+  background: url("img/dream-home.png");
+  background-repeat: no-repeat;
+  position: absolute;
+width: 806px;
+height: 761px;
+left: 1448px;
+top: 45px;
+
+
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
