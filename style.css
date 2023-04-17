@@ -13,6 +13,10 @@ h1, h2 {
   font-family: 'Rubik', sans-serif;
 }
 
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 
 .header {
@@ -313,14 +317,25 @@ color: #73788C;
 }
 
 .discover__recomendation {
-
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.discover__recomendation-villa1 {
+.discover__recomendation-villa1, 
+.discover__recomendation-villa2, 
+.discover__recomendation-villa3 {
+  padding: 16px;
   background: #FEFEFF;
-border: 1px solid #DEDCDA;
+  border: 1px solid #DEDCDA;
 }
 
-.discover__recomendation-villa1 h6 {
+/* .discover__recomendation-villa1-card {
+  padding: 16px;
+  
+} */
+
+.discover__recomendation-villa-name {
   /* font-family: 'Poppins'; */
 font-style: normal;
 font-weight: 600;
@@ -329,7 +344,7 @@ color: #1F2744;
 margin: 0;
 }
 
-.discover__recomendation-villa1 p {
+.discover__recomendation-villa-city {
 margin: 8px 0 15px 0;
 font-style: normal;
 font-weight: 400;
@@ -340,6 +355,9 @@ color: #A6A6A6;
 
 
 .info {
+  display: flex;
+  align-items: center;
+  
 }
 
 .info-price {
@@ -352,6 +370,7 @@ color: #69B99D;
 
 .info__main {
   background: #F5F5F5;
+  margin-left: 40px;
 }
 
 .info-area {
@@ -365,7 +384,7 @@ color: #1F2744;
   color: #A6A6A6;
 }
 
-.send_inquiry {
+.send_inquiry, .send_inquiry-active {
 width: 344px;
 height: 40px;
 margin-top: 25px;
@@ -379,4 +398,87 @@ font-weight: 500;
 font-size: 16px;
 color: #69B99D;
 border: 1px solid #69B99D;
+}
+
+.send_inquiry-active {
+color: #F5F5F5;
+background: #69B99D;
+box-shadow: 0px 0px 20px rgba(105, 185, 157, 0.58);
+
+}
+
+/* *********ADVANTE************* */
+
+.advante h5 {
+  margin: 20px 0 16px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  color: #054457;
+  
+}
+
+.advante img {
+  margin-top: 70px;
+
+}
+
+.advante__giving {
+}
+
+.advante__benefits {
+}
+
+.advante__benefits-part1 {
+  display: flex;
+  align-items: center;
+}
+/* 
+.advante__benefits-part1 + div {
+  margin-left: 30px;
+} */
+
+/* .advante_comfortable + div {
+  margin-left: 30px;
+  /* max-width: 335; */
+ */
+
+.advante__text {
+margin-top: 0;
+max-width: 335px;
+ 
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.5px;
+color: #73788C;
+}
+
+.advante_comfortable img {
+  /* width: 45px;
+  height: 45px; */
+}
+
+.advante_comfortable h5 {
+ 
+}
+
+.advante__extra-security {
+}
+.advante__luxury {
+}
+
+.advante__benefits-part2 {
+}
+.advante__best-price {
+}
+
+.strategic_location {
+}
+
+.efficient {
 }
