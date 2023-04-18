@@ -264,6 +264,7 @@ color: #FFFFFF;
 /************ DISCOVER ************/
 
 .discover {
+  /* background: #E5E5E5; */
 }
 
 .discover__container--info {
@@ -432,9 +433,11 @@ box-shadow: 0px 0px 20px rgba(105, 185, 157, 0.58);
 .advante__benefits {
 }
 
-.advante__benefits-part1 {
+.advante__benefits-part1,
+.advante__benefits-part2 {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 /* 
 .advante__benefits-part1 + div {
@@ -448,8 +451,7 @@ box-shadow: 0px 0px 20px rgba(105, 185, 157, 0.58);
 
 .advante__text {
 margin-top: 0;
-max-width: 335px;
- 
+width: 335px;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -481,4 +483,64 @@ color: #73788C;
 }
 
 .efficient {
+}
+
+/* .advante__benefits-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.advante__text2 {
+  max-width: 330px;
+}
+
+
+/* ********UBOUT US*********** */
+
+
+
+.about__us {
+  display: flex;
+  align-items: center;
+}
+
+.about__us-img {
+}
+
+.about__us-info {
+}
+
+.about__us-question {
+  /* font-family: 'Rubik'; */
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+
+
+letter-spacing: 0.5px;
+
+color: #054457;
+}
+
+.about__us-text {
+}
+
+.about__us-btn {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 48px;
+gap: 8px;
+background: #69B99D;
+box-shadow: 24px 24px 65px rgba(81, 140, 119, 0.24);
+border: none;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FEFEFF;
 }
