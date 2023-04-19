@@ -506,6 +506,7 @@ color: #73788C;
 }
 
 .about__us-img {
+  position: relative;
 }
 
 .about__us-info {
@@ -543,4 +544,45 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 color: #FEFEFF;
+}
+
+.property {
+  position: absolute;
+  top: 391px;
+  left: 132px;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* border: 1px solid red; */
+  background: #FFFFFF;
+}
+
+.property span {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #054457;
+}
+
+.property p {
+  margin-left: 10px;
+  /* background: #FFFFFF; */
+  
+}
+
+.property__sale,
+.property__rent {
+  display: flex;
+  align-items: center;
+  /* margin: 12px; */
+  margin-right: 30px;
+}
+.property__rent {
+  margin-right: 25px;
+}
+
+.property__sale {
+  margin: 0 23px 0 12px;
 }
