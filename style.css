@@ -503,6 +503,7 @@ color: #73788C;
 .about__us {
   display: flex;
   align-items: center;
+  margin-top:  170px;
 }
 
 .about__us-img {
@@ -549,7 +550,7 @@ color: #FEFEFF;
 .property {
   position: absolute;
   top: 391px;
-  left: 132px;
+  left: 123px;
 
   display: flex;
   align-items: center;
@@ -585,4 +586,56 @@ color: #054457;
 
 .property__sale {
   margin: 0 23px 0 12px;
+}
+
+.mark {
+  position: absolute;
+  top: -58px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  width: 175px;
+  height: 230px;
+  background: #FEFEFF;
+  box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+}
+
+.mark__number {
+  margin-left: 35px;
+  /* display: flex; */
+  /* align-items: center; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+color: #054457;
+}
+
+.mark p  {
+  margin: 16px 0 0 46px
+  
+}
+
+.mark p + p {
+  color: #054457;
+  margin: 0 0 0 35px;
+}
+
+.mark__icon {
+  position: absolute;
+  top: -13px;
+  left: 75px;
+  right: 0;
+}
+
+.mark  {
+ 
+}
+
+.mark__reviews {
+
+
+}
+.mark__stars {
+  margin-left: 32px;
 }
